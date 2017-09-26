@@ -1,0 +1,34 @@
+---
+execution:
+- concurrency: 10
+  hold-for: 2m
+  ramp-up: 40s
+  scenario: Thread Group
+scenarios:
+  Thread Group:
+    requests:
+    - label: blazedemo
+      method: GET
+      url: http://blazedemo.com/
+    - body:
+        fromPort: Paris
+        toPort: Buenos Aires
+      label: reserve
+      method: POST
+      url: http://blazedemo.com/reserve.php
+services:
+- module: shellexec
+  post-process:
+  - echo "this is a post process" >> tmp_logs/example.txt
+  prepare:
+  - mkdir tmp_logs
+  shutdown:
+  - echo "shutdown time is $(date)" >> tmp_logs/example.txt
+  startup:
+  - echo 1 > tmp_logs/example.txt
+  - echo 2 >> tmp_logs/example.txt
+- criteria:
+  - avg-rt>10ms for 7s, stop as failed
+  - hits of reserve >10 for 13s, continue as failed
+  module: passfail
+

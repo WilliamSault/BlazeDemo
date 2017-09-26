@@ -1,0 +1,9 @@
+---
+execution:
+- executor: jmeter
+  scenario:
+    script: DemoTest.jmx
+- executor: jmeter
+  scenario:
+    script: DummyTest.jmx
+

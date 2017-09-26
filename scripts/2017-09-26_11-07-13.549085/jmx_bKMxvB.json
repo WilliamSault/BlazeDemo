@@ -1,0 +1,16 @@
+{
+ "execution": [
+  {
+   "scenario": {
+    "script": "DemoTest.jmx"
+   }, 
+   "executor": "jmeter"
+  }, 
+  {
+   "scenario": {
+    "script": "DummyTest.jmx"
+   }, 
+   "executor": "jmeter"
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+[2017-09-26 11:32:49,456 INFO root] Taurus CLI Tool v1.9.5
+[2017-09-26 11:32:49,457 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/mh/6ytxr9zd4_bdy0q8lk1vd9w4k0vvbq/T/bzt_S7iVEj.log', 'option': None, 'aliases': []}
+[2017-09-26 11:32:49,457 DEBUG root] Python: CPython 2.7.13
+[2017-09-26 11:32:49,457 DEBUG root] OS: ('Darwin', 'sauwi01mac1712', '16.7.0', 'Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64', 'x86_64', 'i386')
+[2017-09-26 11:32:49,457 INFO root] Starting with configs: ['WillTestExceution.yml']
+[2017-09-26 11:32:49,457 DEBUG root] Using personal config: /Users/sauwi01/.bzt-rc
+[2017-09-26 11:32:49,457 INFO Engine] Configuring...
+[2017-09-26 11:32:49,457 DEBUG Engine] No machine configs dir: /usr/local/etc/bzt.d
+[2017-09-26 11:32:49,457 DEBUG Engine.Configuration] Configs: ['/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2017-09-26 11:32:49,457 DEBUG Engine.Configuration] Reading /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2017-09-26 11:32:49,478 DEBUG Engine.Configuration] Configs: ['/Users/sauwi01/.bzt-rc', 'WillTestExceution.yml']
+[2017-09-26 11:32:49,479 DEBUG Engine.Configuration] Reading /Users/sauwi01/.bzt-rc as YAML
+[2017-09-26 11:32:49,481 DEBUG Engine.Configuration] Reading WillTestExceution.yml as YAML
+[2017-09-26 11:32:49,483 DEBUG Engine.Configuration] Configs: ['/Users/sauwi01/.bzt-rc', 'WillTestExceution.yml']
+[2017-09-26 11:32:49,483 DEBUG Engine.Configuration] Reading /Users/sauwi01/.bzt-rc as YAML
+[2017-09-26 11:32:49,486 DEBUG Engine.Configuration] Reading WillTestExceution.yml as YAML
+[2017-09-26 11:32:49,495 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.9.5&installID=macos-8c85900d1a09
+[2017-09-26 11:32:49,502 INFO Engine] Artifacts dir: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704
+[2017-09-26 11:32:49,502 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704/effective
+[2017-09-26 11:32:49,503 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704/effective.yml
+[2017-09-26 11:32:49,519 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704/effective.json
+[2017-09-26 11:32:49,520 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704/merged.yml
+[2017-09-26 11:32:49,520 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704/merged.yml
+[2017-09-26 11:32:49,521 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704/merged.json
+[2017-09-26 11:32:49,522 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704/merged.json
+[2017-09-26 11:32:49,522 DEBUG Engine] Add existing artifact (move=False): WillTestExceution.yml
+[2017-09-26 11:32:49,522 DEBUG Engine] Copying WillTestExceution.yml to /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704/WillTestExceution.yml
+[2017-09-26 11:32:49,522 DEBUG root] Closing log handler: /var/folders/mh/6ytxr9zd4_bdy0q8lk1vd9w4k0vvbq/T/bzt_S7iVEj.log
+[2017-09-26 11:32:49,522 DEBUG root] Switched writing logs to /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704/bzt.log
+[2017-09-26 11:32:49,522 INFO Engine] Preparing...
+[2017-09-26 11:32:49,523 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2017-09-26 11:32:49,523 DEBUG root] Importing module: bzt.modules.aggregator
+[2017-09-26 11:32:49,525 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2017-09-26 11:32:49,525 DEBUG Engine.consolidator] Exception in dehumanize_time(inf)
+[2017-09-26 11:32:49,525 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2017-09-26 11:32:49,525 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': 'bzt.modules.monitoring.Monitoring'})
+[2017-09-26 11:32:49,525 DEBUG root] Importing module: bzt.modules.monitoring
+[2017-09-26 11:32:49,542 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2017-09-26 11:32:49,542 DEBUG Engine] Module config: local defaultdict(None, {'class': 'bzt.modules.provisioning.Local'})
+[2017-09-26 11:32:49,542 DEBUG root] Importing module: bzt.modules.provisioning
+[2017-09-26 11:32:49,542 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/provisioning.pyc'>
+[2017-09-26 11:32:49,542 DEBUG Engine] Module config: jmeter defaultdict(None, {'properties': defaultdict(None, {'jmeter.save.saveservice.autoflush': 'true', 'summariser.name': '', 'jmeter.save.saveservice.connect_time': 'true', 'mode': 'Stripped', 'jmeterengine.force.system.exit': 'true'}), 'class': 'bzt.modules.jmeter.JMeterExecutor', 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst']})
+[2017-09-26 11:32:49,542 DEBUG root] Importing module: bzt.modules.jmeter
+[2017-09-26 11:32:49,549 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/jmeter.pyc'>
+[2017-09-26 11:32:49,549 DEBUG Engine.local] Preparing executor: jmeter/4385000656
+[2017-09-26 11:32:49,550 ERROR root] Config Error: Scenario is not found in execution: defaultdict(None, {'scenarios': [defaultdict(None, {'jmx': 'DummyTest.jmx'}), defaultdict(None, {'jmx': 'DemoTest.jmx'})], 'ramp-up': '5s', 'hold-for': '40s', 'concurrency': 10, 'executor': 'jmeter'})
+[2017-09-26 11:32:49,551 DEBUG root] TaurusConfigError: Scenario is not found in execution: defaultdict(None, {'scenarios': [defaultdict(None, {'jmx': 'DummyTest.jmx'}), defaultdict(None, {'jmx': 'DemoTest.jmx'})], 'ramp-up': '5s', 'hold-for': '40s', 'concurrency': 10, 'executor': 'jmeter'})
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/cli.py", line 220, in perform
+    self.engine.prepare()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/engine.py", line 157, in prepare
+    self.__prepare_provisioning()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/engine.py", line 490, in __prepare_provisioning
+    self.provisioning.prepare()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/provisioning.py", line 70, in prepare
+    executor.prepare()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/jmeter.py", line 140, in prepare
+    scenario = self.get_scenario()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/jmeter.py", line 87, in get_scenario
+    scenario_obj = super(JMeterExecutor, self).get_scenario(name=name, cache_scenario=False)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/engine.py", line 912, in get_scenario
+    label = self.execution.get('scenario', exc)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/utils.py", line 176, in get
+    raise default
+TaurusConfigError: Scenario is not found in execution: defaultdict(None, {'scenarios': [defaultdict(None, {'jmx': 'DummyTest.jmx'}), defaultdict(None, {'jmx': 'DemoTest.jmx'})], 'ramp-up': '5s', 'hold-for': '40s', 'concurrency': 10, 'executor': 'jmeter'})
+[2017-09-26 11:32:49,551 INFO Engine] Post-processing...
+[2017-09-26 11:32:49,551 DEBUG Engine.consolidator] Consolidator buffer[0]: []
+[2017-09-26 11:32:49,552 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704/effective.yml
+[2017-09-26 11:32:49,570 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704/effective.json
+[2017-09-26 11:32:49,571 INFO root] Artifacts dir: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704
+[2017-09-26 11:32:49,571 WARNING root] Done performing with code: 1
+[2017-09-26 11:32:49,571 DEBUG root] Closing log handler: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-32-49.495704/bzt.log

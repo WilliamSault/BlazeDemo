@@ -1,0 +1,70 @@
+---
+execution:
+- concurrency: 10
+  executor: jmeter
+  hold-for: 2m
+  locations:
+    us-central1-a: 1
+  ramp-up: 40s
+  scenario: Thread Group
+local-bzt-version: 1.9.5
+modules:
+  gatling:
+    properties:
+      gatling.data.file.bufferSize: 256
+  grinder:
+    properties:
+      grinder.useConsole: false
+  jmeter:
+    properties:
+      jmeter.save.saveservice.autoflush: 'true'
+      jmeter.save.saveservice.connect_time: 'true'
+      jmeterengine.force.system.exit: 'true'
+      mode: Stripped
+      summariser.name: ''
+scenarios:
+  Thread Group:
+    data-sources: {}
+    requests:
+    - body: null
+      body-file: null
+      content-encoding: null
+      follow-redirects: null
+      headers: {}
+      keepalive: null
+      label: blazedemo
+      method: GET
+      think-time: null
+      timeout: null
+      upload-files: []
+      url: http://blazedemo.com/
+    - body:
+        fromPort: Paris
+        toPort: Buenos Aires
+      body-file: null
+      content-encoding: null
+      follow-redirects: null
+      headers: {}
+      keepalive: null
+      label: reserve
+      method: POST
+      think-time: null
+      timeout: null
+      upload-files: []
+      url: http://blazedemo.com/reserve.php
+    script: null
+services:
+- local:
+  - metrics:
+    - cpu
+    - mem
+    - bytes-sent
+    - bytes-recv
+    - disk-read
+    - disk-write
+    - disk-space
+    - engine-loop
+    - conn-all
+  module: monitoring
+  run-at: local
+

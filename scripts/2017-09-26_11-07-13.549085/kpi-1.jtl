@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname
+1506413236973,108,Dummy Sampler,200,OK,Thread Group 1-2,true,114,3,3,6,sauwi01mac1712
+1506413236877,323,Dummy Sampler,200,OK,Thread Group 1-1,true,114,3,3,12,sauwi01mac1712
+1506413237175,185,Dummy Sampler,200,OK,Thread Group 1-4,true,114,3,3,7,sauwi01mac1712
+1506413237275,105,Dummy Sampler,200,OK,Thread Group 1-5,true,114,3,3,41,sauwi01mac1712
+1506413237076,338,Dummy Sampler,200,OK,Thread Group 1-3,true,114,2,2,48,sauwi01mac1712
+1506413237474,71,Dummy Sampler,200,OK,Thread Group 1-7,true,114,2,2,23,sauwi01mac1712
+1506413237373,296,Dummy Sampler,200,OK,Thread Group 1-6,true,114,2,2,10,sauwi01mac1712
+1506413237573,132,Dummy Sampler,200,OK,Thread Group 1-8,true,114,2,2,16,sauwi01mac1712
+1506413237675,467,Dummy Sampler,200,OK,Thread Group 1-9,true,114,2,2,25,sauwi01mac1712
+1506413237774,427,Dummy Sampler,200,OK,Thread Group 1-10,true,114,1,1,18,sauwi01mac1712

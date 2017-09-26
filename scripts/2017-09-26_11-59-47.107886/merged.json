@@ -1,0 +1,55 @@
+{
+ "scenarios": {
+  "Thread Group": {
+   "requests": [
+    {
+     "url": "http://blazedemo.com/", 
+     "method": "GET", 
+     "label": "blazedemo"
+    }, 
+    {
+     "url": "http://blazedemo.com/reserve.php", 
+     "body": {
+      "toPort": "Buenos Aires", 
+      "fromPort": "Paris"
+     }, 
+     "method": "POST", 
+     "label": "reserve"
+    }
+   ]
+  }
+ }, 
+ "services": [
+  {
+   "module": "shellexec", 
+   "post-process": [
+    "echo \"this is a post process\" >> tmp_logs/example.txt"
+   ], 
+   "startup": [
+    "echo 1 > tmp_logs/example.txt", 
+    "echo 2 >> tmp_logs/example.txt"
+   ], 
+   "prepare": [
+    "mkdir tmp_logs"
+   ], 
+   "shutdown": [
+    "echo \"shutdown time is $(date)\" >> tmp_logs/example.txt"
+   ]
+  }, 
+  {
+   "module": "passfail", 
+   "criteria": [
+    "avg-rt>10ms for 7s, stop as failed", 
+    "hits of reserve >10 for 13s, continue as failed"
+   ]
+  }
+ ], 
+ "execution": [
+  {
+   "ramp-up": "40s", 
+   "hold-for": "2m", 
+   "concurrency": 10, 
+   "scenario": "Thread Group"
+  }
+ ]
+}

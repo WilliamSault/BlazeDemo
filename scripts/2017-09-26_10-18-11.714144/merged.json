@@ -1,0 +1,30 @@
+{
+ "scenarios": {
+  "Thread Group": {
+   "requests": [
+    {
+     "url": "http://blazedemo.com/", 
+     "method": "GET", 
+     "label": "blazedemo"
+    }, 
+    {
+     "url": "http://blazedemo.com/reserve.php", 
+     "body": {
+      "toPort": "Buenos Aires", 
+      "fromPort": "Paris"
+     }, 
+     "method": "POST", 
+     "label": "reserve"
+    }
+   ]
+  }
+ }, 
+ "execution": [
+  {
+   "ramp-up": "40s", 
+   "hold-for": "2m", 
+   "concurrency": 10, 
+   "scenario": "Thread Group"
+  }
+ ]
+}

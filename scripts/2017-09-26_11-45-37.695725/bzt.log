@@ -1,0 +1,131 @@
+[2017-09-26 11:45:37,649 INFO root] Taurus CLI Tool v1.9.5
+[2017-09-26 11:45:37,650 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/mh/6ytxr9zd4_bdy0q8lk1vd9w4k0vvbq/T/bzt_uSXOhT.log', 'option': None, 'aliases': []}
+[2017-09-26 11:45:37,650 DEBUG root] Python: CPython 2.7.13
+[2017-09-26 11:45:37,650 DEBUG root] OS: ('Darwin', 'sauwi01mac1712', '16.7.0', 'Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64', 'x86_64', 'i386')
+[2017-09-26 11:45:37,650 INFO root] Starting with configs: ['webdriver_example.yml']
+[2017-09-26 11:45:37,650 DEBUG root] Using personal config: /Users/sauwi01/.bzt-rc
+[2017-09-26 11:45:37,650 INFO Engine] Configuring...
+[2017-09-26 11:45:37,650 DEBUG Engine] No machine configs dir: /usr/local/etc/bzt.d
+[2017-09-26 11:45:37,650 DEBUG Engine.Configuration] Configs: ['/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2017-09-26 11:45:37,650 DEBUG Engine.Configuration] Reading /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2017-09-26 11:45:37,671 DEBUG Engine.Configuration] Configs: ['/Users/sauwi01/.bzt-rc', 'webdriver_example.yml']
+[2017-09-26 11:45:37,672 DEBUG Engine.Configuration] Reading /Users/sauwi01/.bzt-rc as YAML
+[2017-09-26 11:45:37,675 DEBUG Engine.Configuration] Reading webdriver_example.yml as YAML
+[2017-09-26 11:45:37,676 DEBUG Engine.Configuration] Configs: ['/Users/sauwi01/.bzt-rc', 'webdriver_example.yml']
+[2017-09-26 11:45:37,676 DEBUG Engine.Configuration] Reading /Users/sauwi01/.bzt-rc as YAML
+[2017-09-26 11:45:37,679 DEBUG Engine.Configuration] Reading webdriver_example.yml as YAML
+[2017-09-26 11:45:37,688 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.9.5&installID=macos-8c85900d1a09
+[2017-09-26 11:45:37,695 INFO Engine] Artifacts dir: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725
+[2017-09-26 11:45:37,696 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/effective
+[2017-09-26 11:45:37,697 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/effective.yml
+[2017-09-26 11:45:37,713 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/effective.json
+[2017-09-26 11:45:37,714 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/merged.yml
+[2017-09-26 11:45:37,715 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/merged.yml
+[2017-09-26 11:45:37,715 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/merged.json
+[2017-09-26 11:45:37,716 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/merged.json
+[2017-09-26 11:45:37,716 DEBUG Engine] Add existing artifact (move=False): webdriver_example.yml
+[2017-09-26 11:45:37,716 DEBUG Engine] Copying webdriver_example.yml to /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/webdriver_example.yml
+[2017-09-26 11:45:37,716 DEBUG root] Closing log handler: /var/folders/mh/6ytxr9zd4_bdy0q8lk1vd9w4k0vvbq/T/bzt_uSXOhT.log
+[2017-09-26 11:45:37,716 DEBUG root] Switched writing logs to /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/bzt.log
+[2017-09-26 11:45:37,716 INFO Engine] Preparing...
+[2017-09-26 11:45:37,717 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2017-09-26 11:45:37,717 DEBUG root] Importing module: bzt.modules.aggregator
+[2017-09-26 11:45:37,719 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2017-09-26 11:45:37,719 DEBUG Engine.consolidator] Exception in dehumanize_time(inf)
+[2017-09-26 11:45:37,719 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2017-09-26 11:45:37,719 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': 'bzt.modules.monitoring.Monitoring'})
+[2017-09-26 11:45:37,719 DEBUG root] Importing module: bzt.modules.monitoring
+[2017-09-26 11:45:37,737 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2017-09-26 11:45:37,737 DEBUG Engine] Module config: local defaultdict(None, {'class': 'bzt.modules.provisioning.Local'})
+[2017-09-26 11:45:37,737 DEBUG root] Importing module: bzt.modules.provisioning
+[2017-09-26 11:45:37,737 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/provisioning.pyc'>
+[2017-09-26 11:45:37,737 DEBUG Engine] Module config: selenium defaultdict(None, {'class': 'bzt.modules.selenium.SeleniumExecutor'})
+[2017-09-26 11:45:37,737 DEBUG root] Importing module: bzt.modules.selenium
+[2017-09-26 11:45:37,739 DEBUG easyprocess] version=0.2.3
+[2017-09-26 11:45:37,740 DEBUG pyvirtualdisplay] version=0.2.1
+[2017-09-26 11:45:37,740 DEBUG root] Loading class: 'SeleniumExecutor' from <module 'bzt.modules.selenium' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/selenium.pyc'>
+[2017-09-26 11:45:37,741 DEBUG Engine.local] Preparing executor: selenium/4402154896
+[2017-09-26 11:45:37,741 INFO Engine.selenium] Installing ChromeDriver...
+[2017-09-26 11:45:37,741 INFO Engine.selenium.ChromeDriver] Will install ChromeDriver into /Users/sauwi01/.bzt/selenium-taurus/tools/chromedriver/2.29
+[2017-09-26 11:45:37,742 INFO Engine.selenium.ChromeDriver] Downloading: https://chromedriver.storage.googleapis.com/2.29/chromedriver_mac64.zip
+[2017-09-26 11:45:38,281 DEBUG Engine] Taurus updates info: {"latest":"1.9.5","needsUpgrade":false}
+[2017-09-26 11:45:38,281 DEBUG Engine] Installation is up-to-date
+[2017-09-26 11:46:06,591 INFO Engine.selenium.ChromeDriver] Unzipping /var/folders/mh/6ytxr9zd4_bdy0q8lk1vd9w4k0vvbq/T/tmpXuj0Ca.zip to /Users/sauwi01/.bzt/selenium-taurus/tools/chromedriver/2.29
+[2017-09-26 11:46:06,592 DEBUG root] Extracting /var/folders/mh/6ytxr9zd4_bdy0q8lk1vd9w4k0vvbq/T/tmpXuj0Ca.zip to /Users/sauwi01/.bzt/selenium-taurus/tools/chromedriver/2.29
+[2017-09-26 11:46:06,598 DEBUG root] Writing /Users/sauwi01/.bzt/selenium-taurus/tools/chromedriver/2.29/chromedriver
+[2017-09-26 11:46:06,676 INFO Engine.selenium] Installing GeckoDriver...
+[2017-09-26 11:46:06,676 INFO Engine.selenium.GeckoDriver] Will install GeckoDriver into /Users/sauwi01/.bzt/selenium-taurus/tools/geckodriver/0.17.0
+[2017-09-26 11:46:06,677 INFO Engine.selenium.GeckoDriver] Downloading: https://github.com/mozilla/geckodriver/releases/download/v0.17.0/geckodriver-v0.17.0-macos.tar.gz
+[2017-09-26 11:46:39,358 INFO Engine.selenium.GeckoDriver] Untaring /var/folders/mh/6ytxr9zd4_bdy0q8lk1vd9w4k0vvbq/T/tmpKM640A.zip to /Users/sauwi01/.bzt/selenium-taurus/tools/geckodriver/0.17.0
+[2017-09-26 11:46:39,388 WARNING Engine.selenium] Selenium supports concurrency in cloud provisioning mode only
+For details look at http://gettaurus.org/docs/Cloud.md
+[2017-09-26 11:46:39,388 DEBUG Engine.selenium] Detected script type: nose
+[2017-09-26 11:46:39,388 DEBUG Engine] Module config: nose defaultdict(None, {'class': 'bzt.modules.python.NoseTester'})
+[2017-09-26 11:46:39,388 DEBUG root] Importing module: bzt.modules.python
+[2017-09-26 11:46:39,447 DEBUG root] Loading class: 'NoseTester' from <module 'bzt.modules.python' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/python.pyc'>
+[2017-09-26 11:46:39,447 DEBUG Engine.nose.TclLibrary] We don't need to check tcl library on this platform
+[2017-09-26 11:46:39,447 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/NoseTester.ldjson
+[2017-09-26 11:46:39,447 DEBUG Engine] Module config: final-stats defaultdict(None, {'class': 'bzt.modules.reporting.FinalStatus'})
+[2017-09-26 11:46:39,447 DEBUG root] Importing module: bzt.modules.reporting
+[2017-09-26 11:46:39,450 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/reporting.pyc'>
+[2017-09-26 11:46:39,451 DEBUG Engine] Module config: console defaultdict(None, {'class': 'bzt.modules.console.ConsoleStatusReporter'})
+[2017-09-26 11:46:39,451 DEBUG root] Importing module: bzt.modules.console
+[2017-09-26 11:46:39,451 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/console.pyc'>
+[2017-09-26 11:46:39,456 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/effective.yml
+[2017-09-26 11:46:39,475 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/effective.json
+[2017-09-26 11:46:39,476 INFO Engine] Starting...
+[2017-09-26 11:46:39,476 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x1051a5ad0>
+[2017-09-26 11:46:39,476 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x1051880d0>
+[2017-09-26 11:46:39,476 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x1099afe90>
+[2017-09-26 11:46:39,476 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x1099c7a90>
+[2017-09-26 11:46:39,477 INFO Engine.console] Waiting for results...
+[2017-09-26 11:46:39,477 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x105188310>
+[2017-09-26 11:46:39,477 DEBUG Engine.local] Delay setup for selenium/simple: 0(start-at) + 0(delay) = 0
+[2017-09-26 11:46:39,478 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/effective.yml
+[2017-09-26 11:46:39,497 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/effective.json
+[2017-09-26 11:46:39,497 DEBUG root] Leveling down log file verbosity, use -v option to have DEBUG messages enabled
+[2017-09-26 11:46:39,711 INFO Engine.console] Waiting for finish...
+[2017-09-26 11:47:22,632 INFO LoadSamplesReader] Changed data analysis delay to 43s
+[2017-09-26 11:49:56,117 WARNING Engine] Please wait for graceful shutdown...
+[2017-09-26 11:49:56,120 DEBUG root] Leveled up log file verbosity
+[2017-09-26 11:49:56,120 INFO Engine] Shutting down...
+[2017-09-26 11:49:56,124 DEBUG Engine.local] Shutdown selenium/simple
+[2017-09-26 11:49:56,124 DEBUG Engine.selenium] Selenium tests ran for 196.6265378 seconds
+[2017-09-26 11:49:56,124 DEBUG Engine.console] Restoring logging streams, [<logging.StreamHandler object at 0x10316cdd0>]/{<logging.StreamHandler object at 0x10316cdd0>: <open file '<stdout>', mode 'w' at 0x1002ad150>}
+[2017-09-26 11:49:56,126 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/effective.yml
+[2017-09-26 11:49:56,149 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/effective.json
+[2017-09-26 11:49:56,150 INFO Engine] Post-processing...
+[2017-09-26 11:49:56,150 DEBUG Engine.local] Post-process selenium/simple
+[2017-09-26 11:49:56,150 DEBUG LoadSamplesReader] Buffer len: 3
+[2017-09-26 11:49:56,150 DEBUG LoadSamplesReader] Aggregating: 1506415738
+[2017-09-26 11:49:56,151 DEBUG LoadSamplesReader] Aggregating: 1506415757
+[2017-09-26 11:49:56,152 DEBUG LoadSamplesReader] Aggregating: 1506415776
+[2017-09-26 11:49:56,152 DEBUG Engine.consolidator] Consolidator buffer[4]: [1506415776, 1506415719, 1506415738, 1506415757]
+[2017-09-26 11:49:56,152 DEBUG Engine.consolidator] Merging into 1506415719
+[2017-09-26 11:49:56,153 DEBUG Engine.consolidator] Merging 1506415719
+[2017-09-26 11:49:56,155 DEBUG Engine.consolidator] Processed datapoint: 1506415719/None
+[2017-09-26 11:49:56,155 DEBUG Engine.consolidator] Merging into 1506415738
+[2017-09-26 11:49:56,155 DEBUG Engine.consolidator] Merging 1506415738
+[2017-09-26 11:49:56,157 DEBUG Engine.consolidator] Processed datapoint: 1506415738/None
+[2017-09-26 11:49:56,157 DEBUG Engine.consolidator] Merging into 1506415757
+[2017-09-26 11:49:56,157 DEBUG Engine.consolidator] Merging 1506415757
+[2017-09-26 11:49:56,159 DEBUG Engine.consolidator] Processed datapoint: 1506415757/None
+[2017-09-26 11:49:56,160 DEBUG Engine.consolidator] Merging into 1506415776
+[2017-09-26 11:49:56,160 DEBUG Engine.consolidator] Merging 1506415776
+[2017-09-26 11:49:56,162 DEBUG Engine.consolidator] Processed datapoint: 1506415776/None
+[2017-09-26 11:49:56,162 INFO Engine.final-stats] Test duration: 0:03:17
+[2017-09-26 11:49:56,162 INFO Engine.final-stats] Samples count: 10, 0.00% failures
+[2017-09-26 11:49:56,162 INFO Engine.final-stats] Average times: total 19.579, latency 0.000, connect 0.000
+[2017-09-26 11:49:56,162 INFO Engine.final-stats] Percentile 0.0%: 18.483
+[2017-09-26 11:49:56,162 INFO Engine.final-stats] Percentile 50.0%: 19.332
+[2017-09-26 11:49:56,162 INFO Engine.final-stats] Percentile 90.0%: 21.602
+[2017-09-26 11:49:56,162 INFO Engine.final-stats] Percentile 95.0%: 21.602
+[2017-09-26 11:49:56,162 INFO Engine.final-stats] Percentile 99.0%: 21.602
+[2017-09-26 11:49:56,163 INFO Engine.final-stats] Percentile 99.9%: 21.602
+[2017-09-26 11:49:56,163 INFO Engine.final-stats] Percentile 100.0%: 21.602
+[2017-09-26 11:49:56,163 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2017-09-26 11:49:56,164 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/effective.yml
+[2017-09-26 11:49:56,195 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/effective.json
+[2017-09-26 11:49:56,196 INFO root] Artifacts dir: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725
+[2017-09-26 11:49:56,196 INFO root] Done performing with code: 0
+[2017-09-26 11:49:56,196 DEBUG root] Closing log handler: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_11-45-37.695725/bzt.log

@@ -1,0 +1,9 @@
+---
+execution:
+- concurrency: 10
+  hold-for: 40s
+  ramp-up: 5s
+  scenarios:
+  - jmx: DummyTest.jmx
+  - jmx: DemoTest.jmx
+

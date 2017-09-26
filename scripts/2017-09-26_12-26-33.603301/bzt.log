@@ -1,0 +1,379 @@
+[2017-09-26 12:26:33,560 INFO root] Taurus CLI Tool v1.9.5
+[2017-09-26 12:26:33,560 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/mh/6ytxr9zd4_bdy0q8lk1vd9w4k0vvbq/T/bzt_rOgISH.log', 'option': None, 'aliases': ['cloud']}
+[2017-09-26 12:26:33,560 DEBUG root] Python: CPython 2.7.13
+[2017-09-26 12:26:33,560 DEBUG root] OS: ('Darwin', 'sauwi01mac1712', '16.7.0', 'Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64', 'x86_64', 'i386')
+[2017-09-26 12:26:33,560 INFO root] Starting with configs: ['execution.yml', 'blazemeter_module.yml']
+[2017-09-26 12:26:33,561 DEBUG root] Using personal config: /Users/sauwi01/.bzt-rc
+[2017-09-26 12:26:33,561 INFO Engine] Configuring...
+[2017-09-26 12:26:33,561 DEBUG Engine] No machine configs dir: /usr/local/etc/bzt.d
+[2017-09-26 12:26:33,561 DEBUG Engine.Configuration] Configs: ['/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2017-09-26 12:26:33,561 DEBUG Engine.Configuration] Reading /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2017-09-26 12:26:33,582 DEBUG Engine.Configuration] Configs: ['/Users/sauwi01/.bzt-rc', 'execution.yml', 'blazemeter_module.yml']
+[2017-09-26 12:26:33,583 DEBUG Engine.Configuration] Reading /Users/sauwi01/.bzt-rc as YAML
+[2017-09-26 12:26:33,586 DEBUG Engine.Configuration] Reading execution.yml as YAML
+[2017-09-26 12:26:33,589 DEBUG Engine.Configuration] Reading blazemeter_module.yml as YAML
+[2017-09-26 12:26:33,589 DEBUG Engine.Configuration] Configs: ['/Users/sauwi01/.bzt-rc', 'execution.yml', 'blazemeter_module.yml']
+[2017-09-26 12:26:33,590 DEBUG Engine.Configuration] Reading /Users/sauwi01/.bzt-rc as YAML
+[2017-09-26 12:26:33,593 DEBUG Engine.Configuration] Reading execution.yml as YAML
+[2017-09-26 12:26:33,595 DEBUG Engine.Configuration] Reading blazemeter_module.yml as YAML
+[2017-09-26 12:26:33,603 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.9.5&installID=macos-8c85900d1a09
+[2017-09-26 12:26:33,609 INFO Engine] Artifacts dir: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301
+[2017-09-26 12:26:33,609 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/effective
+[2017-09-26 12:26:33,611 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/effective.yml
+[2017-09-26 12:26:33,628 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/effective.json
+[2017-09-26 12:26:33,628 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/merged.yml
+[2017-09-26 12:26:33,629 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/merged.yml
+[2017-09-26 12:26:33,631 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/merged.json
+[2017-09-26 12:26:33,631 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/merged.json
+[2017-09-26 12:26:33,632 DEBUG Engine] Add existing artifact (move=False): execution.yml
+[2017-09-26 12:26:33,632 DEBUG Engine] Copying execution.yml to /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/execution.yml
+[2017-09-26 12:26:33,632 DEBUG Engine] Add existing artifact (move=False): blazemeter_module.yml
+[2017-09-26 12:26:33,632 DEBUG Engine] Copying blazemeter_module.yml to /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/blazemeter_module.yml
+[2017-09-26 12:26:33,632 DEBUG root] Closing log handler: /var/folders/mh/6ytxr9zd4_bdy0q8lk1vd9w4k0vvbq/T/bzt_rOgISH.log
+[2017-09-26 12:26:33,633 DEBUG root] Switched writing logs to /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/bzt.log
+[2017-09-26 12:26:33,633 INFO Engine] Preparing...
+[2017-09-26 12:26:33,633 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2017-09-26 12:26:33,633 DEBUG root] Importing module: bzt.modules.aggregator
+[2017-09-26 12:26:33,635 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2017-09-26 12:26:33,635 DEBUG Engine.consolidator] Exception in dehumanize_time(inf)
+[2017-09-26 12:26:33,635 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2017-09-26 12:26:33,636 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': 'bzt.modules.monitoring.Monitoring'})
+[2017-09-26 12:26:33,636 DEBUG root] Importing module: bzt.modules.monitoring
+[2017-09-26 12:26:33,654 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2017-09-26 12:26:33,654 DEBUG Engine.monitoring] Should not run because of non-matching prov: cloud != local
+[2017-09-26 12:26:33,654 DEBUG Engine] Module config: cloud defaultdict(None, {'class': 'bzt.modules.blazemeter.CloudProvisioning', 'default-location': 'us-central1-a'})
+[2017-09-26 12:26:33,654 DEBUG root] Importing module: bzt.modules.blazemeter
+[2017-09-26 12:26:33,682 DEBUG easyprocess] version=0.2.3
+[2017-09-26 12:26:33,682 DEBUG pyvirtualdisplay] version=0.2.1
+[2017-09-26 12:26:33,683 DEBUG root] Loading class: 'CloudProvisioning' from <module 'bzt.modules.blazemeter' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/blazemeter.pyc'>
+[2017-09-26 12:26:33,683 DEBUG Engine] Module config: blazemeter defaultdict(None, {'test': "Saulty's Test", 'token': '********', 'class': 'bzt.modules.blazemeter.BlazeMeterUploader'})
+[2017-09-26 12:26:33,683 DEBUG root] Importing module: bzt.modules.blazemeter
+[2017-09-26 12:26:33,683 DEBUG root] Loading class: 'BlazeMeterUploader' from <module 'bzt.modules.blazemeter' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/blazemeter.pyc'>
+[2017-09-26 12:26:33,684 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/accounts None
+[2017-09-26 12:26:33,832 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:26:34,342 DEBUG Engine] Taurus updates info: {"latest":"1.9.5","needsUpgrade":false}
+[2017-09-26 12:26:34,342 DEBUG Engine] Installation is up-to-date
+[2017-09-26 12:26:34,957 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/accounts HTTP/1.1" 200 966
+[2017-09-26 12:26:34,961 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 1,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 170923,
+            "name": "Default Account",
+            "thumbnailUrl": null,
+            "salesforce
+[2017-09-26 12:26:34,962 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces?accountId=170923&enabled=true&limit=100 None
+[2017-09-26 12:26:34,964 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:26:36,186 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces?accountId=170923&enabled=true&limit=100 HTTP/1.1" 200 812
+[2017-09-26 12:26:36,190 DEBUG Engine.cloud] Response: {
+    "limit": 100,
+    "skip": 0,
+    "total": 1,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 164540,
+            "name": "Default workspace",
+            "userId": 386785,
+            "created": 1
+[2017-09-26 12:26:36,191 DEBUG Engine] Module config: jmeter defaultdict(None, {'properties': defaultdict(None, {'jmeter.save.saveservice.autoflush': 'true', 'summariser.name': '', 'jmeter.save.saveservice.connect_time': 'true', 'mode': 'Stripped', 'jmeterengine.force.system.exit': 'true'}), 'class': 'bzt.modules.jmeter.JMeterExecutor', 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst']})
+[2017-09-26 12:26:36,191 DEBUG root] Importing module: bzt.modules.jmeter
+[2017-09-26 12:26:36,201 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/jmeter.pyc'>
+[2017-09-26 12:26:36,201 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/multi-tests?workspaceId=164540&name=Saulty%27s+Test None
+[2017-09-26 12:26:36,203 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:26:37,413 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/multi-tests?workspaceId=164540&name=Saulty%27s+Test HTTP/1.1" 200 126
+[2017-09-26 12:26:37,417 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-09-26 12:26:37,417 DEBUG Engine.cloud.ProjectFinder] Looked for collection: None
+[2017-09-26 12:26:37,417 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/tests?workspaceId=164540&name=Saulty%27s+Test None
+[2017-09-26 12:26:37,419 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:26:38,440 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/tests?workspaceId=164540&name=Saulty%27s+Test HTTP/1.1" 200 126
+[2017-09-26 12:26:38,444 DEBUG Engine.cloud] Response: {
+    "limit": 10,
+    "skip": 0,
+    "total": 0,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-09-26 12:26:38,444 DEBUG Engine.cloud.ProjectFinder] Looked for test: None
+[2017-09-26 12:26:38,444 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/user None
+[2017-09-26 12:26:38,446 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:26:39,565 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/user HTTP/1.1" 200 1898
+[2017-09-26 12:26:39,568 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 386785,
+        "email": "william.sault@ca.com",
+        "access": 1506417998,
+        "login": 1506417778,
+        "firstName": "William",
+        "lastName": "Sault",
+        "timez
+[2017-09-26 12:26:39,569 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/projects?workspaceId=164540&limit=99999 None
+[2017-09-26 12:26:39,571 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:26:41,202 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/projects?workspaceId=164540&limit=99999 HTTP/1.1" 200 415
+[2017-09-26 12:26:41,206 DEBUG Engine.cloud] Response: {
+    "limit": 99999,
+    "skip": 0,
+    "total": 1,
+    "hidden": 0,
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": 215215,
+            "name": "Default project",
+            "userId": 386785,
+            "description
+[2017-09-26 12:26:41,206 DEBUG Engine.cloud.ProjectFinder] Will create old-style test
+[2017-09-26 12:26:41,206 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/workspaces/164540 None
+[2017-09-26 12:26:41,208 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:26:42,842 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/workspaces/164540 HTTP/1.1" 200 None
+[2017-09-26 12:26:43,150 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 164540,
+        "name": "Default workspace",
+        "userId": 386785,
+        "created": 1506417778,
+        "updated": 1506417778,
+        "enabled": true,
+        "dedicatedIpsEnab
+[2017-09-26 12:26:43,156 DEBUG Engine.cloud] All resource files are: []
+[2017-09-26 12:26:43,156 DEBUG Engine.cloud] Replace file names in config: [] with []
+[2017-09-26 12:26:43,157 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/cloud
+[2017-09-26 12:26:43,158 DEBUG root] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/cloud.yml
+[2017-09-26 12:26:43,166 DEBUG root] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/cloud.json
+[2017-09-26 12:26:43,166 DEBUG Engine.cloud] Creating new test
+[2017-09-26 12:26:43,166 DEBUG Engine.cloud] Request: POST https://a.blazemeter.com/api/v4/tests {
+ "projectId": 215215, 
+ "configuration": {
+  "type": "taurus", 
+  "plugins": {
+   "taurus": {
+    "filename": ""
+   }
+  }
+ }, 
+ "name": "Saulty's Test"
+}
+[2017-09-26 12:26:43,168 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:26:44,070 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/tests HTTP/1.1" 201 569
+[2017-09-26 12:26:44,074 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 5748862,
+        "name": "Saulty's Test",
+        "userId": 386785,
+        "created": 1506418003,
+        "updated": 1506418003,
+        "creatorClientId": "Taurus",
+        "project
+[2017-09-26 12:26:44,074 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/web/elfinder/5748862?cmd=open&target=s1_Lw None
+[2017-09-26 12:26:44,076 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:26:45,915 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/web/elfinder/5748862?cmd=open&target=s1_Lw HTTP/1.1" 200 1234
+[2017-09-26 12:26:45,919 DEBUG Engine.cloud] Response: {"cwd":{"name":"data","size":0,"mime":"directory","read":1,"write":1,"parent_id":"users","hash":"s1_Lw","rootRev":"","options":{"path":"","url":"","tmbUrl":"","disabled":["mkdir","archive","extract","chmod"],"separator":"\/","copyOverwrite":1,"uploadOverwr
+[2017-09-26 12:26:45,919 DEBUG Engine.cloud] Test files: []
+[2017-09-26 12:26:45,930 DEBUG Engine.cloud] Uploading files into the test: []
+[2017-09-26 12:26:45,936 DEBUG Engine.cloud] Request: POST https://a.blazemeter.com/api/v4/tests/5748862/files --===============5749388316753753515==
+Content-Disposition: file; name="script"; filename="taurus.yml"
+Content-Type: application/octet-stream
+
+---
+execution:
+- concurrency: 10
+  executor: jmeter
+  hold-for: 2m
+  locations:
+    us-central1-a: 1
+  ramp-u
+[2017-09-26 12:26:45,938 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:26:47,346 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/tests/5748862/files HTTP/1.1" 201 515
+[2017-09-26 12:26:47,350 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 5748862,
+        "name": "Saulty's Test",
+        "userId": 386785,
+        "creatorClientId": "Taurus",
+        "created": 1506418003,
+        "updated": 1506418006,
+        "configu
+[2017-09-26 12:26:47,350 DEBUG Engine.cloud] Request: PATCH https://a.blazemeter.com/api/v4/tests/5748862 {
+ "configuration": {
+  "executionType": null
+ }
+}
+[2017-09-26 12:26:47,352 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:26:48,473 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "PATCH /api/v4/tests/5748862 HTTP/1.1" 200 1113
+[2017-09-26 12:26:48,476 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 5748862,
+        "name": "Saulty's Test",
+        "userId": 386785,
+        "creatorClientId": "Taurus",
+        "created": 1506418003,
+        "updated": 1506418008,
+        "project
+[2017-09-26 12:26:48,477 DEBUG Engine] Module config: final-stats defaultdict(None, {'class': 'bzt.modules.reporting.FinalStatus'})
+[2017-09-26 12:26:48,477 DEBUG root] Importing module: bzt.modules.reporting
+[2017-09-26 12:26:48,477 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/reporting.pyc'>
+[2017-09-26 12:26:48,477 DEBUG Engine] Module config: console defaultdict(None, {'class': 'bzt.modules.console.ConsoleStatusReporter'})
+[2017-09-26 12:26:48,478 DEBUG root] Importing module: bzt.modules.console
+[2017-09-26 12:26:48,478 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/console.pyc'>
+[2017-09-26 12:26:48,485 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/effective.yml
+[2017-09-26 12:26:48,511 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/effective.json
+[2017-09-26 12:26:48,512 INFO Engine] Starting...
+[2017-09-26 12:26:48,512 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x104889250>
+[2017-09-26 12:26:48,512 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x107b8f3d0>
+[2017-09-26 12:26:48,512 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x107b8fbd0>
+[2017-09-26 12:26:48,512 INFO Engine.console] Waiting for results...
+[2017-09-26 12:26:48,513 DEBUG Engine] Startup <bzt.modules.blazemeter.CloudProvisioning object at 0x1048a5790>
+[2017-09-26 12:26:48,513 INFO Engine.cloud.ProjectFinder.CloudTaurusTest] Initiating cloud test with https://a.blazemeter.com ...
+[2017-09-26 12:26:48,513 DEBUG Engine.cloud] Request: POST https://a.blazemeter.com/api/v4/tests/5748862/start None
+[2017-09-26 12:26:48,514 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:26:50,420 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/tests/5748862/start HTTP/1.1" 202 518
+[2017-09-26 12:26:50,424 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 16682955,
+        "name": "Saulty's Test",
+        "userId": 386785,
+        "runnerUserId": 386785,
+        "creatorClientId": "Taurus",
+        "executorClientId": "Taurus",
+       
+[2017-09-26 12:26:50,424 INFO Engine.cloud] Started cloud test: https://a.blazemeter.com/app/#/masters/16682955
+[2017-09-26 12:26:50,541 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/effective.yml
+[2017-09-26 12:26:50,580 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/effective.json
+[2017-09-26 12:26:50,582 DEBUG root] Leveling down log file verbosity, use -v option to have DEBUG messages enabled
+[2017-09-26 12:26:52,061 INFO Engine.cloud] Cloud test status: CREATE
+[2017-09-26 12:26:53,475 INFO Engine.console] Waiting for finish...
+[2017-09-26 12:26:57,794 INFO Engine.cloud] Cloud test status: BOOT_STARTING
+[2017-09-26 12:27:35,472 INFO Engine.cloud] Cloud test status: INIT_SCRIPT
+[2017-09-26 12:27:46,948 INFO Engine.cloud] Cloud test status: TAURUS_ENGINE_INIT
+[2017-09-26 12:30:30,050 INFO Engine.cloud] Cloud test status: DATA_RECIEVED
+[2017-09-26 12:33:33,131 INFO Engine.cloud] Cloud test status: ENDED
+[2017-09-26 12:33:33,136 INFO Engine.cloud] Test was stopped in the cloud: ENDED
+[2017-09-26 12:33:37,773 WARNING Engine] Please wait for graceful shutdown...
+[2017-09-26 12:33:37,778 DEBUG root] Leveled up log file verbosity
+[2017-09-26 12:33:37,779 INFO Engine] Shutting down...
+[2017-09-26 12:33:37,783 DEBUG Engine.console] Restoring logging streams, [<logging.StreamHandler object at 0x10386cdd0>]/{<logging.StreamHandler object at 0x10386cdd0>: <open file '<stdout>', mode 'w' at 0x1002ad150>}
+[2017-09-26 12:33:37,786 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/effective.yml
+[2017-09-26 12:33:37,807 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/effective.json
+[2017-09-26 12:33:37,808 INFO Engine] Post-processing...
+[2017-09-26 12:33:37,808 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/masters/16682955/full None
+[2017-09-26 12:33:37,810 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:33:39,888 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/masters/16682955/full HTTP/1.1" 200 3568
+[2017-09-26 12:33:39,892 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "id": 16682955,
+        "name": "Saulty's Test",
+        "userId": 386785,
+        "ended": 1506418409,
+        "runnerUserId": 386785,
+        "maxUsers": 10,
+        "created": 1506418009
+[2017-09-26 12:33:39,892 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/data/labels?master_id=16682955 None
+[2017-09-26 12:33:39,894 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:33:41,114 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/data/labels?master_id=16682955 HTTP/1.1" 200 532
+[2017-09-26 12:33:41,118 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "id": "ALL",
+            "name": "ALL",
+            "sessions": [
+                "r-t-59ca1d5aa24aa"
+            ]
+        },
+        {
+            "id": "blazedemo",
+       
+[2017-09-26 12:33:41,118 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/data/kpis?interval=1&from=1506418360&master_ids%5B%5D=16682955&kpis%5B%5D=t&kpis%5B%5D=lt&kpis%5B%5D=by&kpis%5B%5D=n&kpis%5B%5D=ec&kpis%5B%5D=ts&kpis%5B%5D=na&labels%5B%5D=ALL&labels%5B%5D=blazedemo&labels%5B%5D=reserve None
+[2017-09-26 12:33:41,120 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:33:42,464 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/data/kpis?interval=1&from=1506418360&master_ids%5B%5D=16682955&kpis%5B%5D=t&kpis%5B%5D=lt&kpis%5B%5D=by&kpis%5B%5D=n&kpis%5B%5D=ec&kpis%5B%5D=ts&kpis%5B%5D=na&labels%5B%5D=ALL&labels%5B%5D=blazedemo&labels%5B%5D=reserve HTTP/1.1" 200 1584
+[2017-09-26 12:33:42,468 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "labelId": "ALL",
+            "labelName": "ALL",
+            "label": "ALL",
+            "kpis": [
+                {
+                    "n": 9,
+                    "na": 6,
+
+[2017-09-26 12:33:42,468 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/masters/16682955/reports/aggregatereport/data None
+[2017-09-26 12:33:42,470 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:33:43,879 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/masters/16682955/reports/aggregatereport/data HTTP/1.1" 200 1998
+[2017-09-26 12:33:43,883 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": [
+        {
+            "labelId": "ALL",
+            "labelName": "ALL",
+            "samples": 3292,
+            "avgResponseTime": 431,
+            "90line": 672,
+            "95line": 676,
+      
+[2017-09-26 12:33:43,883 DEBUG Engine.cloud] Request: GET https://a.blazemeter.com/api/v4/masters/16682955/reports/errorsreport/data?noDataError=false None
+[2017-09-26 12:33:43,886 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com
+[2017-09-26 12:33:45,210 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "GET /api/v4/masters/16682955/reports/errorsreport/data?noDataError=false HTTP/1.1" 200 61
+[2017-09-26 12:33:45,213 DEBUG Engine.cloud] Response: {
+    "api_version": 4,
+    "error": null,
+    "result": []
+}
+[2017-09-26 12:33:45,214 DEBUG Engine.consolidator] Consolidator buffer[3]: [1506418358, 1506418359, 1506418360]
+[2017-09-26 12:33:45,214 DEBUG Engine.consolidator] Merging into 1506418358
+[2017-09-26 12:33:45,215 DEBUG Engine.consolidator] Merging 1506418358
+[2017-09-26 12:33:45,217 DEBUG Engine.consolidator] Processed datapoint: 1506418358/None
+[2017-09-26 12:33:45,217 DEBUG Engine.consolidator] Merging into 1506418359
+[2017-09-26 12:33:45,217 DEBUG Engine.consolidator] Merging 1506418359
+[2017-09-26 12:33:45,220 DEBUG Engine.consolidator] Processed datapoint: 1506418359/None
+[2017-09-26 12:33:45,220 DEBUG Engine.consolidator] Merging into 1506418360
+[2017-09-26 12:33:45,220 DEBUG Engine.consolidator] Merging 1506418360
+[2017-09-26 12:33:45,222 DEBUG Engine.consolidator] Processed datapoint: 1506418360/None
+[2017-09-26 12:33:45,222 INFO Engine.final-stats] Test duration: 0:06:57
+[2017-09-26 12:33:45,222 INFO Engine.final-stats] Samples count: 3292, 0.00% failures
+[2017-09-26 12:33:45,222 INFO Engine.final-stats] Average times: total 0.431, latency 0.122, connect 0.000
+[2017-09-26 12:33:45,222 INFO Engine.final-stats] Percentile 90.0%: 0.676
+[2017-09-26 12:33:45,222 INFO Engine.final-stats] Percentile 95.0%: 0.779
+[2017-09-26 12:33:45,223 INFO Engine.final-stats] Percentile 99.0%: 1.342
+[2017-09-26 12:33:45,223 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2017-09-26 12:33:45,224 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/effective.yml
+[2017-09-26 12:33:45,248 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/effective.json
+[2017-09-26 12:33:45,249 INFO root] Artifacts dir: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301
+[2017-09-26 12:33:45,249 INFO root] Done performing with code: 0
+[2017-09-26 12:33:45,249 DEBUG root] Closing log handler: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-33.603301/bzt.log

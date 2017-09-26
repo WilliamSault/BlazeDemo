@@ -1,0 +1,10 @@
+---
+execution:
+- concurrency: 3
+  executor: selenium
+  hold-for: 3m
+  scenario: simple
+scenarios:
+  simple:
+    script: selenium_example.py
+

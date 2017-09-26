@@ -1,0 +1,170 @@
+[2017-09-26 12:26:17,053 INFO root] Taurus CLI Tool v1.9.5
+[2017-09-26 12:26:17,054 DEBUG root] Command-line options: {'verbose': None, 'no_system_configs': None, 'quiet': None, 'log': '/var/folders/mh/6ytxr9zd4_bdy0q8lk1vd9w4k0vvbq/T/bzt_7gTgut.log', 'option': None, 'aliases': []}
+[2017-09-26 12:26:17,054 DEBUG root] Python: CPython 2.7.13
+[2017-09-26 12:26:17,054 DEBUG root] OS: ('Darwin', 'sauwi01mac1712', '16.7.0', 'Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64', 'x86_64', 'i386')
+[2017-09-26 12:26:17,054 INFO root] Starting with configs: ['execution.yml', 'blazemeter_module.yml']
+[2017-09-26 12:26:17,054 DEBUG root] Using personal config: /Users/sauwi01/.bzt-rc
+[2017-09-26 12:26:17,054 INFO Engine] Configuring...
+[2017-09-26 12:26:17,055 DEBUG Engine] No machine configs dir: /usr/local/etc/bzt.d
+[2017-09-26 12:26:17,055 DEBUG Engine.Configuration] Configs: ['/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/resources/base-config.yml']
+[2017-09-26 12:26:17,055 DEBUG Engine.Configuration] Reading /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/resources/base-config.yml as YAML
+[2017-09-26 12:26:17,077 DEBUG Engine.Configuration] Configs: ['/Users/sauwi01/.bzt-rc', 'execution.yml', 'blazemeter_module.yml']
+[2017-09-26 12:26:17,077 DEBUG Engine.Configuration] Reading /Users/sauwi01/.bzt-rc as YAML
+[2017-09-26 12:26:17,080 DEBUG Engine.Configuration] Reading execution.yml as YAML
+[2017-09-26 12:26:17,083 DEBUG Engine.Configuration] Reading blazemeter_module.yml as YAML
+[2017-09-26 12:26:17,084 DEBUG Engine.Configuration] Configs: ['/Users/sauwi01/.bzt-rc', 'execution.yml', 'blazemeter_module.yml']
+[2017-09-26 12:26:17,084 DEBUG Engine.Configuration] Reading /Users/sauwi01/.bzt-rc as YAML
+[2017-09-26 12:26:17,087 DEBUG Engine.Configuration] Reading execution.yml as YAML
+[2017-09-26 12:26:17,089 DEBUG Engine.Configuration] Reading blazemeter_module.yml as YAML
+[2017-09-26 12:26:17,100 DEBUG Engine] Requesting updates info: http://gettaurus.org/updates/?version=1.9.5&installID=macos-8c85900d1a09
+[2017-09-26 12:26:17,107 INFO Engine] Artifacts dir: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760
+[2017-09-26 12:26:17,107 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/effective
+[2017-09-26 12:26:17,108 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/effective.yml
+[2017-09-26 12:26:17,125 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/effective.json
+[2017-09-26 12:26:17,126 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/merged.yml
+[2017-09-26 12:26:17,126 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/merged.yml
+[2017-09-26 12:26:17,128 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/merged.json
+[2017-09-26 12:26:17,129 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/merged.json
+[2017-09-26 12:26:17,129 DEBUG Engine] Add existing artifact (move=False): execution.yml
+[2017-09-26 12:26:17,129 DEBUG Engine] Copying execution.yml to /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/execution.yml
+[2017-09-26 12:26:17,129 DEBUG Engine] Add existing artifact (move=False): blazemeter_module.yml
+[2017-09-26 12:26:17,129 DEBUG Engine] Copying blazemeter_module.yml to /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/blazemeter_module.yml
+[2017-09-26 12:26:17,129 DEBUG root] Closing log handler: /var/folders/mh/6ytxr9zd4_bdy0q8lk1vd9w4k0vvbq/T/bzt_7gTgut.log
+[2017-09-26 12:26:17,130 DEBUG root] Switched writing logs to /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/bzt.log
+[2017-09-26 12:26:17,130 INFO Engine] Preparing...
+[2017-09-26 12:26:17,130 DEBUG Engine] Module config: consolidator defaultdict(None, {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'})
+[2017-09-26 12:26:17,130 DEBUG root] Importing module: bzt.modules.aggregator
+[2017-09-26 12:26:17,132 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/aggregator.pyc'>
+[2017-09-26 12:26:17,132 DEBUG Engine.consolidator] Exception in dehumanize_time(inf)
+[2017-09-26 12:26:17,132 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2017-09-26 12:26:17,132 DEBUG Engine] Module config: monitoring defaultdict(None, {'class': 'bzt.modules.monitoring.Monitoring'})
+[2017-09-26 12:26:17,132 DEBUG root] Importing module: bzt.modules.monitoring
+[2017-09-26 12:26:17,150 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/monitoring.pyc'>
+[2017-09-26 12:26:17,151 DEBUG Engine] Module config: local defaultdict(None, {'class': 'bzt.modules.provisioning.Local'})
+[2017-09-26 12:26:17,151 DEBUG root] Importing module: bzt.modules.provisioning
+[2017-09-26 12:26:17,151 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/provisioning.pyc'>
+[2017-09-26 12:26:17,151 DEBUG Engine] Module config: jmeter defaultdict(None, {'properties': defaultdict(None, {'jmeter.save.saveservice.autoflush': 'true', 'summariser.name': '', 'jmeter.save.saveservice.connect_time': 'true', 'mode': 'Stripped', 'jmeterengine.force.system.exit': 'true'}), 'class': 'bzt.modules.jmeter.JMeterExecutor', 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst']})
+[2017-09-26 12:26:17,151 DEBUG root] Importing module: bzt.modules.jmeter
+[2017-09-26 12:26:17,164 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/jmeter.pyc'>
+[2017-09-26 12:26:17,164 DEBUG Engine.local] Preparing executor: jmeter/4417293648
+[2017-09-26 12:26:17,164 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/jmeter.log
+[2017-09-26 12:26:17,164 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2017-09-26 12:26:17,165 DEBUG Engine.jmeter] Port 4445 is free
+[2017-09-26 12:26:17,165 DEBUG Engine.jmeter] Using port 4445 for management
+[2017-09-26 12:26:17,165 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2017-09-26 12:26:17,265 DEBUG Engine.jmeter.JavaVM] JavaVM output: java version "1.8.0_141"
+Java(TM) SE Runtime Environment (build 1.8.0_141-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 25.141-b15, mixed mode)
+
+[2017-09-26 12:26:17,265 DEBUG Engine.jmeter.TclLibrary] We don't need to check tcl library on this platform
+[2017-09-26 12:26:17,266 DEBUG Engine.jmeter.JMeter] Trying jmeter: /Users/sauwi01/.bzt/jmeter-taurus/3.2/bin/jmeter.sh
+[2017-09-26 12:26:17,266 DEBUG bzt.utils] Executing shell: ['/Users/sauwi01/.bzt/jmeter-taurus/3.2/bin/jmeter.sh', '-j', '/var/folders/mh/6ytxr9zd4_bdy0q8lk1vd9w4k0vvbq/T/jmeterDQSTtglog', '--version']
+[2017-09-26 12:26:17,756 DEBUG Engine] Taurus updates info: {"latest":"1.9.5","needsUpgrade":false}
+[2017-09-26 12:26:17,756 DEBUG Engine] Installation is up-to-date
+[2017-09-26 12:26:18,181 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____     
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \   
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) | 
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <  
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 3.2 r1790748  
+
+Copyright (c) 1999-2017 The Apache Software Foundation
+
+ / None
+[2017-09-26 12:26:18,188 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/requests.jmx
+[2017-09-26 12:26:18,190 DEBUG JMeterScenarioBuilder] Saving JMX to: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/requests.jmx
+[2017-09-26 12:26:18,192 DEBUG Engine.jmeter] Load: LoadSpec(concurrency=10, throughput=None, ramp_up=40.0, hold=120.0, iterations=0, duration=160.0, steps=None)
+[2017-09-26 12:26:18,195 DEBUG Engine.jmeter.LoadSettingsProcessor.ThreadGroupHandler] Converting ThreadGroup (Thread Group) to ConcurrencyThreadGroup and apply load parameters
+[2017-09-26 12:26:18,195 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/kpi.jtl
+[2017-09-26 12:26:18,196 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/error.jtl
+[2017-09-26 12:26:18,196 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/modified_requests.jmx
+[2017-09-26 12:26:18,197 DEBUG JMX] Saving JMX to: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/modified_requests.jmx
+[2017-09-26 12:26:18,197 DEBUG Engine.jmeter] Additional properties: defaultdict(None, {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'user.classpath': '/Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760', 'sampleresult.default.encoding': 'UTF-8', 'summariser.name': '', 'jmeterengine.force.system.exit': 'true', 'jmeter.save.saveservice.timestamp_format': 'ms', 'mode': 'Stripped', 'jmeterengine.nongui.maxport': 4445, 'jmeterengine.nongui.port': 4445})
+[2017-09-26 12:26:18,197 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/jmeter-bzt.properties
+[2017-09-26 12:26:18,197 DEBUG Engine.jmeter] Additional system properties defaultdict(None, {'sun.net.inetaddr.ttl': 0})
+[2017-09-26 12:26:18,198 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/system.properties
+[2017-09-26 12:26:18,198 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/jmeter.out
+[2017-09-26 12:26:18,198 DEBUG Engine] New artifact filename: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/jmeter.err
+[2017-09-26 12:26:18,199 DEBUG Engine] Module config: final-stats defaultdict(None, {'class': 'bzt.modules.reporting.FinalStatus'})
+[2017-09-26 12:26:18,199 DEBUG root] Importing module: bzt.modules.reporting
+[2017-09-26 12:26:18,233 DEBUG easyprocess] version=0.2.3
+[2017-09-26 12:26:18,234 DEBUG pyvirtualdisplay] version=0.2.1
+[2017-09-26 12:26:18,235 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/reporting.pyc'>
+[2017-09-26 12:26:18,235 DEBUG Engine] Module config: console defaultdict(None, {'class': 'bzt.modules.console.ConsoleStatusReporter'})
+[2017-09-26 12:26:18,235 DEBUG root] Importing module: bzt.modules.console
+[2017-09-26 12:26:18,235 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/modules/console.pyc'>
+[2017-09-26 12:26:18,241 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/effective.yml
+[2017-09-26 12:26:18,267 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/effective.json
+[2017-09-26 12:26:18,268 INFO Engine] Starting...
+[2017-09-26 12:26:18,268 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x1046a5790>
+[2017-09-26 12:26:18,268 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x104688250>
+[2017-09-26 12:26:18,268 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x1075848d0>
+[2017-09-26 12:26:18,268 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x1075b1090>
+[2017-09-26 12:26:18,268 INFO Engine.console] Waiting for results...
+[2017-09-26 12:26:18,268 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x104688cd0>
+[2017-09-26 12:26:18,268 DEBUG Engine.local] Delay setup for jmeter/Thread Group: 0(start-at) + 0(delay) = 0
+[2017-09-26 12:26:18,270 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/effective.yml
+[2017-09-26 12:26:18,298 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/effective.json
+[2017-09-26 12:26:18,298 DEBUG root] Leveling down log file verbosity, use -v option to have DEBUG messages enabled
+[2017-09-26 12:26:18,511 INFO Engine.console] Waiting for finish...
+[2017-09-26 12:26:27,609 WARNING Engine] Please wait for graceful shutdown...
+[2017-09-26 12:26:27,612 DEBUG root] Leveled up log file verbosity
+[2017-09-26 12:26:27,612 INFO Engine] Shutting down...
+[2017-09-26 12:26:27,615 DEBUG Engine.local] Shutdown jmeter/Thread Group
+[2017-09-26 12:26:28,616 INFO Engine.jmeter] Sending Shutdown command to JMeter on port 4445...
+[2017-09-26 12:26:29,622 DEBUG Engine.jmeter] JMeter stopped on Shutdown command
+[2017-09-26 12:26:29,622 DEBUG Engine.console] Restoring logging streams, [<logging.StreamHandler object at 0x10386cdd0>]/{<logging.StreamHandler object at 0x10386cdd0>: <open file '<stdout>', mode 'w' at 0x1002ad150>}
+[2017-09-26 12:26:29,624 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/effective.yml
+[2017-09-26 12:26:29,652 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/effective.json
+[2017-09-26 12:26:29,653 WARNING root] Keyboard interrupt
+[2017-09-26 12:26:29,654 DEBUG root] KeyboardInterrupt: 
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/cli.py", line 221, in perform
+    self.engine.run()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/engine.py", line 201, in run
+    reraise(exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/engine.py", line 183, in run
+    self._wait()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bzt/engine.py", line 226, in _wait
+    time.sleep(delay)
+KeyboardInterrupt
+[2017-09-26 12:26:29,654 INFO Engine] Post-processing...
+[2017-09-26 12:26:29,654 DEBUG Engine.local] Post-process jmeter/Thread Group
+[2017-09-26 12:26:29,654 DEBUG Engine] Add existing artifact (move=True): /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/modified_requests.jmx
+[2017-09-26 12:26:29,654 DEBUG Engine] No need to copy /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/modified_requests.jmx
+[2017-09-26 12:26:29,654 DEBUG Engine.jmeter.JTLErrorsReader] Opening /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/error.jtl
+[2017-09-26 12:26:29,655 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Reading JTL: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/kpi.jtl
+[2017-09-26 12:26:29,655 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read lines: 3 / 336 bytes (at speed 1048576)
+[2017-09-26 12:26:29,655 DEBUG Engine.jmeter.JTLReader] Buffer len: 4
+[2017-09-26 12:26:29,655 DEBUG Engine.jmeter.JTLReader] Aggregating: 1506417981
+[2017-09-26 12:26:29,656 DEBUG Engine.jmeter.JTLReader] Aggregating: 1506417985
+[2017-09-26 12:26:29,656 DEBUG Engine.jmeter.JTLReader] Aggregating: 1506417986
+[2017-09-26 12:26:29,657 DEBUG Engine.jmeter.JTLReader] Aggregating: 1506417988
+[2017-09-26 12:26:29,658 DEBUG Engine.consolidator] Consolidator buffer[4]: [1506417985, 1506417986, 1506417988, 1506417981]
+[2017-09-26 12:26:29,658 DEBUG Engine.consolidator] Merging into 1506417981
+[2017-09-26 12:26:29,658 DEBUG Engine.consolidator] Merging 1506417981
+[2017-09-26 12:26:29,660 DEBUG Engine.consolidator] Processed datapoint: 1506417981/None
+[2017-09-26 12:26:29,660 DEBUG Engine.consolidator] Merging into 1506417985
+[2017-09-26 12:26:29,660 DEBUG Engine.consolidator] Merging 1506417985
+[2017-09-26 12:26:29,662 DEBUG Engine.consolidator] Processed datapoint: 1506417985/None
+[2017-09-26 12:26:29,662 DEBUG Engine.consolidator] Merging into 1506417986
+[2017-09-26 12:26:29,662 DEBUG Engine.consolidator] Merging 1506417986
+[2017-09-26 12:26:29,664 DEBUG Engine.consolidator] Processed datapoint: 1506417986/None
+[2017-09-26 12:26:29,664 DEBUG Engine.consolidator] Merging into 1506417988
+[2017-09-26 12:26:29,664 DEBUG Engine.consolidator] Merging 1506417988
+[2017-09-26 12:26:29,666 DEBUG Engine.consolidator] Processed datapoint: 1506417988/None
+[2017-09-26 12:26:29,666 INFO Engine.final-stats] Test duration: 0:00:11
+[2017-09-26 12:26:29,667 INFO Engine.final-stats] Samples count: 4, 25.00% failures
+[2017-09-26 12:26:29,667 INFO Engine.final-stats] Average times: total 1.881, latency 0.508, connect 0.000
+[2017-09-26 12:26:29,667 INFO Engine.final-stats] Percentile 0.0%: 0.012
+[2017-09-26 12:26:29,667 INFO Engine.final-stats] Percentile 50.0%: 2.602
+[2017-09-26 12:26:29,667 INFO Engine.final-stats] Percentile 90.0%: 4.236
+[2017-09-26 12:26:29,667 INFO Engine.final-stats] Percentile 95.0%: 4.236
+[2017-09-26 12:26:29,667 INFO Engine.final-stats] Percentile 99.0%: 4.236
+[2017-09-26 12:26:29,667 INFO Engine.final-stats] Percentile 99.9%: 4.236
+[2017-09-26 12:26:29,667 INFO Engine.final-stats] Percentile 100.0%: 4.236
+[2017-09-26 12:26:29,667 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2017-09-26 12:26:29,669 DEBUG Engine.Configuration] Dumping YAML config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/effective.yml
+[2017-09-26 12:26:29,753 DEBUG Engine.Configuration] Dumping JSON config into /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/effective.json
+[2017-09-26 12:26:29,754 INFO root] Artifacts dir: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760
+[2017-09-26 12:26:29,755 WARNING root] Done performing with code: 1
+[2017-09-26 12:26:29,755 DEBUG root] Closing log handler: /Users/sauwi01/OneDrive - CA Technologies/Training/scripts/2017-09-26_12-26-17.100760/bzt.log

@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname
+1506417981605,4236,blazedemo,200,OK,Thread Group 1-1,true,290418,2,2,889,sauwi01mac1712
+1506417986007,2602,reserve,200,OK,Thread Group 1-1,true,94579,2,2,472,sauwi01mac1712
+1506417988610,12,blazedemo,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-1,false,2031,2,2,0,sauwi01mac1712
+1506417985578,674,blazedemo,200,OK,Thread Group 1-2,true,7894,2,2,673,sauwi01mac1712

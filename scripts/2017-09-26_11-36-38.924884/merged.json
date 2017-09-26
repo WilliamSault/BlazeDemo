@@ -1,0 +1,14 @@
+{
+ "execution": [
+  {
+   "scenarios": {
+    "jmx": "DummyTest.jmx", 
+    "jmx-2": "DemoTest.jmx"
+   }, 
+   "ramp-up": "5s", 
+   "hold-for": "40s", 
+   "concurrency": 10, 
+   "scenario": "DemoTest.jmx"
+  }
+ ]
+}
